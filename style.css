@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.247),
+      rgba(153, 142, 149, 0.116)
+    ),
+    url("./assets/bg.png");
+  /* background-image: url("./assets/bg.png"); */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 100vw;
+  padding: 15px 100px 1px 100px;
+  margin-bottom: 1px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.line {
+  border-left: 1px solid #bebebe;
+  margin-left: 60px;
+  height: 40px;
+}
+
+nav ul {
+  padding: 5px 40px;
+}
+nav ul li {
+  display: inline-flex;
+  padding: 0 20px;
+  font-family: "Poppins", "sans-serif";
+}
+
+.button-small {
+  position: absolute;
+  right: 5%;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #ba0cc5;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Hero Text */
+.hero {
+  text-align: center;
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hero-heading {
+  font-size: 50px;
+  margin-top: 25%;
+  font-family: "Montserrat", "san-serif";
+}
+
+.hero-description {
+  font-family: "Poppins", "san-serif";
+  font-weight: 500;
+}
+
+.button-large {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ba0cc5;
+  border-color: transparent;
+  color: white;
+  font-family: "Poppins", "san-serif";
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.button-large:first-letter {
+  text-transform: capitalize;
+}
